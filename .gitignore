@@ -1,0 +1,27 @@
+# --- Hammasini e'tiborsiz qoldirib, faqat keraklisini sinxronlaymiz ---
+/*
+# Sinxronlanadigan qismlar (skill / buyruq / agent / xotira / plugin config):
+!/skills/
+!/commands/
+!/agents/
+!/plugins/
+!/projects/
+!.gitignore
+!/SYNC-README.md
+
+# plugin ichidan faqat config, klon marketplace'larni emas:
+/plugins/marketplaces/
+/plugins/repos/
+/plugins/cache/
+
+# projects ichidan faqat memory papkalari:
+/projects/*/*
+!/projects/*/memory/
+
+# maxfiy engagement ma'lumotlari sinxronlanmaydi
+/engagements/
+
+# runtime axlati (agar ichkariga tushsa)
+**/__store.db
+**/.credentials.json
+**/*.log

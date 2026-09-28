@@ -13,6 +13,11 @@
 /plugins/marketplaces/
 /plugins/repos/
 /plugins/cache/
+/plugins/synced/
+
+# skills ichidan runtime keshi va o'chirilganlar emas:
+/skills/synced/
+/skills/.trash/
 
 # projects ichidan faqat memory papkalari:
 /projects/*/*
